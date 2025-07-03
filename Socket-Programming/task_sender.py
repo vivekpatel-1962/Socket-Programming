@@ -6,6 +6,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
+
 class TaskSender:
     def __init__(self, host: str = 'localhost', port: int = 5000):
         self.host = host
