@@ -64,6 +64,8 @@ class TaskResult:
         if self.start_time is None:
             return False
         return time.time() - self.start_time > self.timeout
+
+
     
     def can_retry(self) -> bool:
         """Check if task can be retried."""
