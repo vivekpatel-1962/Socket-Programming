@@ -7,6 +7,7 @@ import logging
 import time
 from utils import TaskResult, serialize_message, deserialize_message, split_range
 
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
