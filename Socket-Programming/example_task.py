@@ -1,7 +1,6 @@
 from task_sender import TaskSender
 import logging
 
-
 def main():
     # Create a task sender instance
     sender = TaskSender(host='localhost', port=5000)
