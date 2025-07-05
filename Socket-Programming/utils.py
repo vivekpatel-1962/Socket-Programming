@@ -3,7 +3,6 @@ from typing import Tuple, List, Dict, Any
 import socket
 import time
 
-
 def split_range(start: int, end: int, num_parts: int) -> List[Tuple[int, int]]:
     """Split a numeric range into approximately equal parts."""
     chunk_size = (end - start + 1) // num_parts
